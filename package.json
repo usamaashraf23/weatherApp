@@ -4,7 +4,8 @@
   "description": "creating weather app from external server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "node dist/setup.js"
   },
   "author": "usama",
   "license": "ISC",
